@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background-color: #532780;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #532780;
+    
+    align-items: center;
+
+}
+
+nav a{
+    padding-right: 20px;
+
+    
+}
+
+#carrito{
+    position: fixed;
+    top: 15px;
+    right: 0.5%;
+}
+#huella{
+    height: 30px;
+    padding-right: 8px; 
+}
+#mascotitas{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.logo{
+    display: flex;
+    
+}
+
+footer{
+    background-color: #000000;
+}
+
+#webpay{
+    height: 80px;
+    width: 180px;
+}
+.redes{
+    display: flex;
+    float: right;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}nav a:hover{
+    transition: 1s;
+    color: rgb(255, 255, 255);
+}
+.nav-2{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 60px;
+    align-items: center;
+}
+#inicio a, #comprar a, #sobrenosotros a,#perros a, #gatos a{
+    padding: 30px;
+    font-size: 20px;
+    color: rgb(127, 26, 133);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+@media (max-width:600px){
+    header a{
+        font-size: 12px;
+    }
+    #carrito{
+        position: fixed;
+        top: 10px;
+        right: 0.5%;
+    }
+
+    #inicio a, #comprar a, #sobrenosotros a, #perros a, #gatos a{
+    padding: 15px;
+    font-size: 15px;
+    }
+
+    #webpay{
+        height: 60px;
+        width: 150px;
+    }
+}
+

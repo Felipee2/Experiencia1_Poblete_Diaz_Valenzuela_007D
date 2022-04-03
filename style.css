@@ -216,3 +216,81 @@ nav a{
     }
 
 }
+
+.form-registro{
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    font-family: cursive;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: #43145c 7px 13px 37px;
+    background: #784c91;
+}
+
+.form-registro h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #ffffff;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.form-registro a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.form-registro a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.form-registro .botons{
+    width: 100%;
+    background: #1f106f;
+    border: none;
+    padding: 12px;
+    color: #ffffff;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.form-inicio{
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    font-family: cursive;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: #43145c 7px 13px 37px;
+    background: #784c91;
+}
+
+.form-inicio .botons{
+    width: 100%;
+    background: #1f106f;
+    border: none;
+    padding: 12px;
+    color: #ffffff;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.form-inicio a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.form-inicio a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}

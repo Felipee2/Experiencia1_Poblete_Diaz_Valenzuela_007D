@@ -1,23 +1,30 @@
+/*Imports Fuentes personalizadas*/
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+/**/
+#marcas{
+    position: relative;
+    right: -6cm;
+}
+
 body{
     margin: 0;
-    background-color: #532780;
+    background-color: #eee5e5;
 }
 
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #532780;
-    
+    background-color: #4b1767;
     align-items: center;
 
 }
-
-nav a{
-    padding-right: 20px;
-
-    
+footer{
+    background-color: #5e1486;
+    height: 100px;
+    position: relative;
+    bottom: -6px;
 }
-
 #carrito{
     position: fixed;
     top: 15px;
@@ -30,54 +37,97 @@ nav a{
 #mascotitas{
     font-size: 25px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: 600;
+    color: #f3f2f2;
+    font-family: 'Bungee Shade', cursive;
+
 }
 .logo{
     display: flex;
-    
+    margin-bottom: 10px;
 }
 
-footer{
-    background-color: #000000;
+#royal{
+    height: 100px;
 }
 
 #webpay{
     height: 80px;
     width: 180px;
+    
 }
-.redes{
+#redes{
     display: flex;
     float: right;
 }
+#copy{
+    text-align: center;
+    color: rgb(157, 152, 152);
+    position: relative; bottom: 15px; right: -100px;
+}
+#links a{
+    text-decoration: none;
+    color: rgb(225, 192, 46);
+    font-weight: 900;
+    font-size: 22px;
+    font-family: cursive;   
+    position:relative;
+    right: 0cm;
+}#links a:hover{
+    transition: 1s;
+    color: black;
+    font-size: 25px;
+}
+
 
 nav a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #f3f2f2;
     font-size: 20px;
-    font-weight: 600;
+    padding-right: 20px;
+    font-family: cursive;
+    font-weight: 800;
+
 }nav a:hover{
     transition: 1s;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
 }
 .nav-2{
     display: flex;
     justify-content: center;
-    background-color: #ffffff;
-    height: 60px;
+    background-color: #43145c;
+    height: 80px;
     align-items: center;
+    margin-bottom: 50px;
+
 }
 #inicio a, #comprar a, #sobrenosotros a,#perros a, #gatos a{
     padding: 30px;
-    font-size: 20px;
-    color: rgb(127, 26, 133);
+    font-size: 25px;
+    color: #f3f2f2;
     text-decoration: none;
-    font-weight: 600;
+    font-family: cursive;
+    font-weight: 800;
+}
+#inicio a:hover, #comprar a:hover, #sobrenosotros a:hover,#perros a:hover, #gatos a:hover{
+    transition: 1s;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
 }
 
-@media (max-width:600px){
+#mapagoogle{
+    position: relative;
+    left: 11cm;
+}
+
+
+/*Responsive*/
+@media (max-width:700px){
     header a{
         font-size: 12px;
+    }header a:hover{
+        font-size: 12px;
+        color: white;
     }
     #carrito{
         position: fixed;
@@ -85,14 +135,84 @@ nav a{
         right: 0.5%;
     }
 
-    #inicio a, #comprar a, #sobrenosotros a, #perros a, #gatos a{
+    #inicio a, #comprar a, #perros a, #gatos a{
     padding: 15px;
     font-size: 15px;
+    }#inicio a:hover, #comprar a:hover,#perros a:hover, #gatos a:hover{
+        font-size: 15px;
+        color: white;
     }
 
-    #webpay{
-        height: 60px;
-        width: 150px;
+    #links a{
+        font-size: 15px;
+        position: relative;
+        left: 15px;
+        bottom: -15px;
     }
+    footer{
+        position: fixed;
+        bottom: 1px;
+        width: 100%;
+    }
+    #copy{
+        font-size: 12px;
+        position: relative;
+        bottom: -10px;
+        left: 60px;
+    }
+    #royal{
+        height: 20px;
+    }
+
 }
 
+/*Responsive IMG, mapa*/
+@media (max-width:1200px){
+    #royal{
+        height: 80px;
+        justify-content: space-between;
+        padding-right: 10px;   
+    }
+
+    #mapagoogle{
+        position: relative;
+        left: 6cm;
+        height: 400px;
+        width: 520px;
+    }
+    @media (max-width:750px){
+        #mapagoogle{
+            position: relative;
+            left: 1cm;
+            height: 350px;
+            width: 420px;
+        }
+    }@media (max-width:995px){
+        #royal{
+            height: 70px;
+            position: relative;
+            left: -4cm;
+        }
+    }@media (max-width:780px){
+        #royal{
+            height: 55px;
+            position: relative;
+            left: -6cm;
+        }
+    }@media (max-width:540px){
+        #royal{
+            height: 50px;
+            position: relative;
+            left: -6cm;
+        }
+    }@media (max-width:490px){
+        #royal{
+            height: 50px;
+            position: relative;
+            left: -6cm;
+            margin-bottom: 15px;
+        }
+        
+    }
+
+}

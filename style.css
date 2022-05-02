@@ -15,12 +15,12 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #4b1767;
+    background-color: #723195;
     align-items: center;
 
 }
 footer{
-    background-color: #5e1486;
+    background-color: #723195;
     height: 100px;
     position: relative;
     bottom: -6px;
@@ -89,13 +89,13 @@ nav a{
 
 }nav a:hover{
     transition: 1s;
-    color: rgb(0, 0, 0);
+    color:white;
     font-size: 30px;
 }
 .nav-2{
     display: flex;
     justify-content: center;
-    background-color: #43145c;
+    background-color: #723195;
     height: 80px;
     align-items: center;
     margin-bottom: 50px;
@@ -111,7 +111,6 @@ nav a{
 }
 #inicio a:hover, #comprar a:hover, #sobrenosotros a:hover,#perros a:hover, #gatos a:hover{
     transition: 1s;
-    color: rgb(0, 0, 0);
     font-size: 30px;
 }
 
@@ -348,3 +347,11 @@ transition: opacity 400ms ease-in;
 	box-shadow: 1px 1px 3px #000;
 }
 .close:hover { background: #ca850e; }
+
+
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
